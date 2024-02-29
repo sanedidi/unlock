@@ -1,0 +1,36 @@
+.comp {
+  margin: clamp(3.125rem, 2.199rem + 4.63vw, 6.25rem) 0;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(1.875rem, 0.579rem + 6.48vw, 6.25rem);
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    padding: 24px;
+  }
+
+  &__logo {
+    &.none {
+      @media (max-width: 886px) {
+        display: none;
+      }
+    }
+    img {
+      border-right: 1px solid #f1f1f3;
+      padding-right: clamp(1.875rem, 1.319rem + 2.78vw, 3.75rem);
+      width: 100%;
+    }
+  }
+  &__btm{
+    img{
+        width: 100%;
+    }
+  }
+}
