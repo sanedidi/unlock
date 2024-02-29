@@ -1,0 +1,17 @@
+.preheader{
+    margin: 20px 0;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 6px;
+        background-color: #FF9500;
+        padding: 10px 0;
+    }
+    &__text{
+        color: #fff;
+        font-size: 14px;
+    }
+    &__icon{}
+}
