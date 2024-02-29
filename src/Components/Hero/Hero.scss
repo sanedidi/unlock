@@ -1,0 +1,89 @@
+.hero {
+  width: 100%;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 60dvh;
+    margin-top: auto;
+  }
+  &__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 640px;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+    border: 1px solid #F1F1F3;
+    &::before {
+      content: "";
+      background-image: url(../../assets/heroAfter.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      width: 39px;
+      height: 43px;
+      object-fit: contain;
+      top: -31px;
+      left: -28px;
+    }
+  }
+  &__icon {
+    width: 100%;
+    max-width: 48px;
+  }
+  &__title {
+    color: #1a1a1a;
+    font-weight: 600;
+    span {
+      color: #ff9500;
+    }
+  }
+  &__mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+  }
+  &__text {
+    font-size: clamp(1.5rem, 1.426rem + 0.37vw, 1.75rem);
+    font-weight: 600;
+    color: #262626;
+    &.small {
+      font-size: clamp(0.875rem, 0.838rem + 0.19vw, 1rem);
+      font-weight: 500;
+    }
+  }
+  &__title {
+    font-size: clamp(0.75rem, 0.306rem + 2.22vw, 2.25rem);
+  }
+  &__btm{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  &__btn{
+    background-color: #fff;
+    padding: 14px 20px;
+    font-weight: 600;
+    border-radius: 6px;
+      &.orange{
+        background-color: #ff9500;
+        color: white;
+    }
+  }
+}
