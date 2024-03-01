@@ -10,6 +10,8 @@ import Benefits from "./Components/Benefits/Benefits";
 import Course from "./Components/Course/Course";
 import Test from "./Components/Test/Test";
 import Pricing from "./Components/Pricing/Pricing";
+import Qa from "./Components/QA/Qa";
+import Footer from "./Components/Footer/Footer";
 // COMPONENTS END
 
 // IMAGES
@@ -143,6 +145,8 @@ const App = () => {
       <Course {...data} />
       <Test {...data} />
       <Pricing {...data} />
+      <Qa />
+      <Footer />
     </>
   );
 };
