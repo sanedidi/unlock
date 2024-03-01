@@ -32,21 +32,22 @@ const Benefits = () => {
       title: "Interactive Learning Environment",
       text: "Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding.",
     },
+    
   ];
   return (
     <section className="benefits">
       <div className="container">
         <div className="benefits__wrapper">
-          <div className="benefits__top">
+          <div className="glob__top">
             <div className="benefits__content">
-              <h2 className="benefits__title">Benefits</h2>
-              <p className="benefits__text">
+              <h2 className="glob__title">Benefits</h2>
+              <p className="glob__text">
                 Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam
                 eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et.
                 Ac cum eget habitasse in velit fringilla feugiat senectus in.
               </p>
             </div>
-            <div className="benefits__btn">
+            <div className="glob__btn ben">
               <button>View All</button>
             </div>
           </div>

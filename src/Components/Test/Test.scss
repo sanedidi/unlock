@@ -1,0 +1,89 @@
+.test {
+  margin: clamp(3.125rem, 2.199rem + 4.63vw, 6.25rem) 0;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  &__top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+
+    @media (max-width: 886px) {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__title {
+    color: #262626;
+    font-size: clamp(1.75rem, 1.565rem + 0.93vw, 2.375rem);
+    font-weight: 600;
+  }
+
+  &__text {
+    font-size: clamp(0.875rem, 0.838rem + 0.19vw, 1rem);
+    color: #59595a;
+  }
+
+  &__btn {
+    button {
+      padding: 14px 16px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 886px) {
+      margin-left: 0;
+      width: max-content;
+    }
+  }
+  &__user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      color: #333333;
+    }
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    @media (max-width: 786px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  &__card {
+    background-color: #fff;
+    border: 1px solid #f1f1f3;
+    border-radius: 10px;
+  }
+  &__card-top {
+    padding: clamp(1.875rem, 1.69rem + 0.93vw, 2.5rem);
+    p{
+      color: #4C4C4D;
+    }
+  }
+  &__card-btm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 24px;
+    background-color: #fcfcfd;
+    border-top: 1px solid #f1f1f3;
+    border-radius: 0 0 10px 10px;
+  }
+}
