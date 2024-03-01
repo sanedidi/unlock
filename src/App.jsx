@@ -104,6 +104,31 @@ const App = () => {
         text: "I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor's guidance and feedback improved my design abilities significantly. I'm grateful for this course!",
       },
     ],
+    titlePric: "Our Testimonials",
+    descriptionPric:
+      "Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.",
+    itemsPric: [
+      {
+        price: 0,
+        text1:"Access to selected free courses.",
+        text2:"Limited course materials and resources.",
+        text3:"Basic community support.",
+        text4:"No certification upon completion.",
+        text5:"Ad-supported platform.",
+        text6:"Access to exclusive Pro Plan community forums.",
+        text7:"Early access to new courses and updates.",
+      },
+      {
+        price: 79,
+        text1:"Unlimited access to all courses.",
+        text2:"Unlimited course materials and resources.",
+        text3:"Course completion certificates.",
+        text4:"Ad-free experience.",
+        text5:"Access to exclusive Pro Plan community forums.",
+        text6:"Early access to new courses and updates. ",
+        text7:"Priority support from instructors.",
+      },
+    ],
   };
 
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./Pricing.scss"; // Подключите свои стили
+import "./Pricing.scss"; 
 
-const Pricing = ({ titleTest, descriptionTest, itemsTest }) => {
+const Pricing = ({ titleTest, descriptionTest }) => {
   return (
     <section className="pricing">
       <div className="container">
@@ -13,8 +13,8 @@ const Pricing = ({ titleTest, descriptionTest, itemsTest }) => {
               <p className="glob__text">{descriptionTest}</p>
             </div>
             <div className="pricing__btn">
-              <button>Monthly</button>
-              <button>Yearly</button>
+              <button className="orange">Monthly</button>
+              <button className="white">Yearly</button>
             </div>
           </div>
           <div className="pricing__cards">
