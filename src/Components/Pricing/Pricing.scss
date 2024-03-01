@@ -1,8 +1,20 @@
 .pricing{
     margin: clamp(3.125rem, 2.199rem + 4.63vw, 6.25rem) 0;
-    &__wrapper{}
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
     &__content{}
-    &__cards{}
+    &__cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        background-color: #fff;
+        width: 100%;
+        padding: 50px;
+        border-radius: 12px;
+    }
     &__btn{
         width: max-content;
         margin-left: auto;
@@ -23,6 +35,63 @@
             color: #4C4C4D;
             font-weight: 600;
         }
+    }
+    &__card{
+        display: flex;
+        flex-direction: column;
+        background-color: #FCFCFD;
+        border: 1px solid #F1F1F3;
+        width: 100%;
+        padding: 50px;
+        border-radius: 12px;
+    }
+    &__card-title{
+        width: 100%;
+        padding: 10px 22px;
+        font-weight: 600;
+        color: #262626;
+        background-color: #FFF9F0;
+        border: 1px solid #FFEACC;
+        text-align: center;
+    }
+    &__card-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: clamp(1.875rem, 1.505rem + 1.85vw, 3.125rem);
+    }
+    &__card-price{
+        font-size: clamp(0.875rem, 0.838rem + 0.19vw, 1rem);
+        span{
+            font-size: clamp(3.125rem, 2.94rem + 0.93vw, 3.75rem);
+            font-weight: 600;
+        }
+    }
+    &__box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 10px 10px 0 0 ;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px;
+        border-radius: 6px;
+        border: 1px solid #F1F1F3;
+    }
+    &__card-btn{
+        width: 100%;
+        background-color: #FF9500;
+        padding: 18px 0;
+        text-align: center;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 0 0 10px 10px;
     }
 }
 
