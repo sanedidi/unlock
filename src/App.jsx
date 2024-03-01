@@ -104,12 +104,13 @@ const App = () => {
         text: "I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor's guidance and feedback improved my design abilities significantly. I'm grateful for this course!",
       },
     ],
-    titlePric: "Our Testimonials",
+    titlePric: "Our Pricing",
     descriptionPric:
       "Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.",
     itemsPric: [
       {
         price: 0,
+        btn:'Free Plan',
         text1:"Access to selected free courses.",
         text2:"Limited course materials and resources.",
         text3:"Basic community support.",
@@ -120,6 +121,7 @@ const App = () => {
       },
       {
         price: 79,
+        btn:'Pro Plan',
         text1:"Unlimited access to all courses.",
         text2:"Unlimited course materials and resources.",
         text3:"Course completion certificates.",
